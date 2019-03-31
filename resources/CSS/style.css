@@ -4,10 +4,55 @@ header{
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  border-bottom: 1px solid black;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  background-color: white;
+  align-items: center;
+  height: 80px;
 }
-img nav{
+.logo{
   display: flex;
+  align-items: center;
+  padding-left: 30px;
+  flex-grow: 1;
 }
-nav li{
-  display: inline-block;
+
+.logo span{
+  color: MediumAquamarine;
+  padding-right: 5px;
+}
+.logo img{
+width: 70px;
+height: 60px;
+margin-right: 12px;
+}
+header nav{
+  padding-right: 40px;
+}
+.content{
+  display: flex;
+  width: 150px;
+  margin-top: 0;
+  margin-right: auto;
+  margin-bottom: 70px;
+  margin-left: auto;
+}
+div{
+  border: 1px solid black;
+}
+.col{
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
+.col .large{
+  width: 630px;
+}
+.col .medium{
+width: 300px;
+}
+.col .small{
+width: 240px;
 }
